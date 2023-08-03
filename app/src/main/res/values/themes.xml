@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">    </style>
+
+        <style name="background">
+            <item name="android:backgroundTint" type="color">#FFFFFFFF</item></style>
+
+
+        <style name="food_headers" >
+            <item name="android:textColor" type="color">#FF000000</item>
+            <item name="android:textSize" type="integer">20dp</item>
+
+        </style>
+
+
+
+    <style name="card_view"        >
+        <item name="android:layout_width" type="int">50dp</item>
+        <item name="android:layout_height" type="int">50dp</item>
+        <item name="android:layout_marginLeft" type="int">20dp</item>
+        <item name="android:layout_marginRight" type="int">20dp</item>
+        <item name="android:layout_weight" type="int">1</item>
+        <item name="android:backgroundTint" type="color">@color/white</item>
+        <item name="android:clickable" type="boolean">true</item>
+
+    </style>
+
+
+
+</resources>
